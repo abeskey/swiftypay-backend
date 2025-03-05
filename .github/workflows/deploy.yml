@@ -1,4 +1,19 @@
-- name: Deploy via SSH (Docker)
+name: Deploy SwiftyPay
+
+on:
+  push:
+    branches:
+      - main  # Runs deployment only when pushing to main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Deploy via SSH (Docker)
         uses: appleboy/ssh-action@v0.1.10
         with:
           host: ${{ secrets.SSH_HOST }}
