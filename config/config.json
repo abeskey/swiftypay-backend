@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "swiftypay_user",
+    "password": "Pastoradeboye@1977",
+    "database": "swiftypay",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "swiftypay_user",
+    "password": "Pastoradeboye@1977",
+    "database": "swiftypay",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "swiftypay_user",
+    "password": "Pastoradeboye@1977",
+    "database": "swiftypay",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
